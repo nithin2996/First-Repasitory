@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include<stdio.h>                                                                //Pre-processor
 int main()
 {
     int a,b;
@@ -7,7 +7,7 @@ int main()
     printf("Enter the values of a & b: ");
     scanf("%d %d",&a,&b);
     printf("Enter your Choice : ");
-    scanf("%d",&op);
+    scanf("%d",&op);                                                          // user option to perform the mathematical  equation
     switch(op)
     {
     case 1	:
